@@ -1,0 +1,20 @@
+{
+  "name": "relaxer-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annie-Huang/relaxer-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Annie-Huang/relaxer-app/issues"
+  },
+  "homepage": "https://github.com/Annie-Huang/relaxer-app#readme"
+}
