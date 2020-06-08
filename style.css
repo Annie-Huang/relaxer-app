@@ -82,6 +82,13 @@ body {
     display: block;
 }
 
+.container.grow {
+    animation: grow 3s linear forwards; /* 3s is matching the breatheTime set in js */
+}
+.container.shrink {
+    animation: shrink 3s linear forwards;
+}
+
 @keyframes rotate {
     from {
         transform: rotate(0deg);
@@ -91,6 +98,26 @@ body {
     }
 }
 
+/* Before the grow and shrink is in the container level, the white ball (.pointer) and it's container (.pointer-container)
+   has actually grow as well, but because the scale is not that big, you don't see it, you can change it to 2 to check
+   This is why the distance of the white ball and the circle path is always relatively the same */
+@keyframes grow {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(2);
+    }
+}
+
+@keyframes shrink {
+    from {
+        transform: scale(2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
 
 
 
